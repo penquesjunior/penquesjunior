@@ -4,8 +4,8 @@
 ### i am 27 years old and i love developer
 
 - 🔭 Cursando Faculdade UNITAU and Udemi
-- 🌱 Estudando Python, JavaScript
-- 😄 Estudando Ingles (mediano)
+- 🌱 Estudando Python, JavaScript, java ...
+- 😄 Estudando Ingles (intermediario)
 - ⚡ Conhecimentos em Java
 
 <div>
