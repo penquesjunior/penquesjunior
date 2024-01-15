@@ -1,0 +1,57 @@
+import java.util.Scanner;
+
+    public class Main {
+        public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+        String texto = """
+                *********************************
+                Nome :         Wladimir Penques
+                tipo conta:    Corrente
+                Saldo inicial: R$ 2500,00
+                *********************************
+                """;
+        String op = """
+                
+                Operações
+                
+                1- Conulta saldos
+                2- Receber valor
+                3- Transferir valor
+                4- Sair
+                """;
+
+            System.out.println(texto);
+
+            double saldo = 2500;
+            int n = 0;
+            while(n != 4){
+                System.out.println(op);
+                System.out.printf("Digite a opção solicitada: ");
+                n = sc.nextInt();
+                switch (n){
+                    case 1:
+                        System.out.println("Saldo atual: "+saldo);
+                        break;
+                    case 2:
+                        System.out.printf("qual valor deseja receber? ");
+                        double valor = sc.nextDouble();
+                        saldo += valor;
+                        System.out.println("Valor atualizado para: " + saldo);
+                        break;
+                    case 3:
+                        System.out.printf("qual valor deseja Transferir? ");
+                        double transfer = sc.nextDouble();
+                        System.out.println("Valor Transferido com sucesso ! ");
+                        saldo -= transfer;
+                        System.out.println("Saldo atualizado para: " +  saldo);
+                        break;
+                    case 4: n = 4;
+                        break;
+                    default:
+                        System.out.println("Operação invalida!");
+
+                }
+
+            }
+        }
+    }
