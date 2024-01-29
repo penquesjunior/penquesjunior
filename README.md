@@ -3,7 +3,7 @@
 ### My name is Wladimir Penques Junior,
 ### i am 27 years old and i love developer
 
-- 🔭 Cursando Faculdade UNITAU and Udemi
+- 🔭 Cursando Faculdade UNITAU, UDEMY and ALURA
 - 🌱 Estudando Python, JavaScript, java ...
 - 😄 Estudando Ingles (intermediario)
 - ⚡ Conhecimentos em Java
